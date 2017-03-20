@@ -156,8 +156,14 @@ int main(){
 				//Tambah Buku 
 				bukutek1->setGolongan(kategori);
 				bukutek2->setGolongan(kategori);
+				bukutek3->setGolongan(kategori);
+				bukutek4->setGolongan(kategori);
+				bukutek5->setGolongan(kategori);
 				bukutek1->tampil(kategori);
 				bukutek2->tampil(kategori);
+				bukutek3->tampil(kategori);
+				bukutek4->tampil(kategori);
+				bukutek5->tampil(kategori);
 				
 			}
 			if(pilihkategoribuku==2){//--filsafat
@@ -166,8 +172,14 @@ int main(){
 				//Tambah Buku 
 				bukufil1->setGolongan(kategori);
 				bukufil2->setGolongan(kategori);
+				bukufil3->setGolongan(kategori);
+				bukufil4->setGolongan(kategori);
+				bukufil5->setGolongan(kategori);
 				bukufil1->tampil(kategori);
 				bukufil2->tampil(kategori);
+				bukufil3->tampil(kategori);
+				bukufil4->tampil(kategori);
+				bukufil5->tampil(kategori);
 			}
 			if(pilihkategoribuku==3){//--filsafat
 				string kategori = "Sejarah";
@@ -175,8 +187,14 @@ int main(){
 				//Tambah Buku 
 				bukusej1->setGolongan(kategori);
 				bukusej2->setGolongan(kategori);
+				bukusej3->setGolongan(kategori);
+				bukusej4->setGolongan(kategori);
+				bukusej5->setGolongan(kategori);
 				bukusej1->tampil(kategori);
 				bukusej2->tampil(kategori);
+				bukusej3->tampil(kategori);
+				bukusej4->tampil(kategori);
+				bukusej5->tampil(kategori);
 			}
 			if(pilihkategoribuku==4){//--filsafat
 				string kategori = "Agama";
