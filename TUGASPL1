@@ -60,19 +60,19 @@ int main(){
 		bukutek2->setPenulis("Dahrul Syah");
 
 		perpustakaanx *bukutek3 = new perpustakaanx();
-		bukutek2->setNamaBuku("Buku 3 Pendidikan Teknologi Informasi Dan Komunikasi");
-		bukutek2->setTahunTerbit(2013);
-		bukutek2->setPenulis("Dr. Deni Darmawan,S.Pd., M.Si.");
+		bukutek3->setNamaBuku("Buku 3 Pendidikan Teknologi Informasi Dan Komunikasi");
+		bukutek3->setTahunTerbit(2013);
+		bukutek3->setPenulis("Dr. Deni Darmawan,S.Pd., M.Si.");
 		
 		perpustakaanx *bukutek4 = new perpustakaanx();
-		bukutek2->setNamaBuku("Buku 4 Agresi Perkembangan Teknologi Informasi");
-		bukutek2->setTahunTerbit(2015);
-		bukutek2->setPenulis("Drs. Kasiyanto Kasemin");		
+		bukutek4->setNamaBuku("Buku 4 Agresi Perkembangan Teknologi Informasi");
+		bukutek4->setTahunTerbit(2015);
+		bukutek4->setPenulis("Drs. Kasiyanto Kasemin");		
 		
 		perpustakaanx *bukutek5 = new perpustakaanx();
-		bukutek2->setNamaBuku("Buku 5 Budi Daya dan Teknologi Karet");
-		bukutek2->setTahunTerbit(2013);
-		bukutek2->setPenulis("1. Dr. Ir. Tumpal H.S. Siregar., Dip. gr.\n\t\t\t 2. Ir. Irwan Suhendry, MM.");		
+		bukutek5->setNamaBuku("Buku 5 Budi Daya dan Teknologi Karet");
+		bukutek5->setTahunTerbit(2013);
+		bukutek5->setPenulis("1. Dr. Ir. Tumpal H.S. Siregar., Dip. gr.\n\t\t\t 2. Ir. Irwan Suhendry, MM.");		
 				
 		//filsafat
 		perpustakaanx *bukufil1 = new perpustakaanx();
@@ -86,19 +86,19 @@ int main(){
 		bukufil2->setPenulis("Dr. Muhsin Labib");
 
 		perpustakaanx *bukufil3 = new perpustakaanx();
-		bukufil2->setNamaBuku("Buku 3 Filsafat Sebagai Akar Ilmu Komunikasi");
-		bukufil2->setTahunTerbit(2011);
-		bukufil2->setPenulis("Prof. Dr. Nina W. Syam, M.S.");
+		bukufil3->setNamaBuku("Buku 3 Filsafat Sebagai Akar Ilmu Komunikasi");
+		bukufil3->setTahunTerbit(2011);
+		bukufil3->setPenulis("Prof. Dr. Nina W. Syam, M.S.");
 		
 		perpustakaanx *bukufil4 = new perpustakaanx();
-		bukufil2->setNamaBuku("Buku 4 Berfikir Filsafat menuju Filsafat Ilmu");
-		bukufil2->setTahunTerbit(2017);
-		bukufil2->setPenulis("Dr. Ramlani Lina Sinaulan MH MM");
+		bukufil4->setNamaBuku("Buku 4 Berfikir Filsafat menuju Filsafat Ilmu");
+		bukufil4->setTahunTerbit(2017);
+		bukufil4->setPenulis("Dr. Ramlani Lina Sinaulan MH MM");
 				
 		perpustakaanx *bukufil5 = new perpustakaanx();
-		bukufil2->setNamaBuku("Buku 5 Filsafat Komunikasi Orang Melayu");
-		bukufil2->setTahunTerbit(2015);
-		bukufil2->setPenulis("Dr. Antar Venus, M.A.");
+		bukufil5->setNamaBuku("Buku 5 Filsafat Komunikasi Orang Melayu");
+		bukufil5->setTahunTerbit(2015);
+		bukufil5->setPenulis("Dr. Antar Venus, M.A.");
 		
 		//sejarah
 		perpustakaanx *bukusej1 = new perpustakaanx();
