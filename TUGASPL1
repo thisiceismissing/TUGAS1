@@ -102,14 +102,29 @@ int main(){
 		
 		//sejarah
 		perpustakaanx *bukusej1 = new perpustakaanx();
-		bukusej1->setNamaBuku("Buku 1 Sejarah");
-		bukusej1->setTahunTerbit(2011);
-		bukusej1->setPenulis("Imad Muzafar");
+		bukusej1->setNamaBuku("Buku 1 Wali Sanga : Menguak Tabir Kisah Hingga Fakta Sejarah");
+		bukusej1->setTahunTerbit(2016);
+		bukusej1->setPenulis("MASYAKUR ARIF");
 		
 		perpustakaanx *bukusej2 = new perpustakaanx();
-		bukusej2->setNamaBuku("Buku 2 Sejarah");
-		bukusej2->setTahunTerbit(2013);
-		bukusej2->setPenulis("Ammar W");
+		bukusej2->setNamaBuku("Buku 2 Sejarah Perjuangan Politik Umat Islam di Indonesia");
+		bukusej2->setTahunTerbit(2016);
+		bukusej2->setPenulis("Abdul Qadir Djaelani");
+
+		perpustakaanx *bukusej3 = new perpustakaanx();
+		bukusej3->setNamaBuku("Buku 3 Sejarah Catur Indonesia");
+		bukusej3->setTahunTerbit(1986);
+		bukusej3->setPenulis("Ds. F.K.N. Harahap");
+		
+		perpustakaanx *bukusej4 = new perpustakaanx();
+		bukusej4->setNamaBuku("Buku 4 Sejarah Dakwah");
+		bukusej4->setTahunTerbit(2016);
+		bukusej4->setPenulis("H. Syamsuddin RS.");
+		
+		perpustakaanx *bukusej5 = new perpustakaanx();
+		bukusej5->setNamaBuku("Buku 5 Sejarah Pelayaran Nusantara: Jejak Indonesia di Lautan Dunia ");
+		bukusej5->setTahunTerbit(2016);
+		bukusej5->setPenulis("Ms Ardison");
 		
 		//agama
 		perpustakaanx *bukuagm1 = new perpustakaanx();
