@@ -137,20 +137,99 @@ int main(){
 		bukuagm2->setTahunTerbit(2017);
 		bukuagm2->setPenulis("Dian Noviyanti");
 		
-		perpustakaanx *bukuagm2 = new perpustakaanx();
-		bukuagm2->setNamaBuku("Kamu Begitu Berharga ");
-		bukuagm2->setTahunTerbit(2017);
-		bukuagm2->setPenulis("M. Dhani Sulisty");
+		perpustakaanx *bukuagm3 = new perpustakaanx();
+		bukuagm3->setNamaBuku("Kamu Begitu Berharga ");
+		bukuagm3->setTahunTerbit(2017);
+		bukuagm3->setPenulis("M. Dhani Sulisty");
 		
-		perpustakaanx *bukuagm2 = new perpustakaanx();
-		bukuagm2->setNamaBuku("Renungan Tasawuf");
-		bukuagm2->setTahunTerbit(2017);
-		bukuagm2->setPenulis("Hamka Prof. Dr.");
+		perpustakaanx *bukuagm4= new perpustakaanx();
+		bukuagm4->setNamaBuku("Renungan Tasawuf");
+		bukuagm4->setTahunTerbit(2017);
+		bukuagm4->setPenulis("Hamka Prof. Dr.");
 		
-		perpustakaanx *bukuagm2 = new perpustakaanx();
-		bukuagm2->setNamaBuku("Jangan Khawatir Allah Bersamamu");
-		bukuagm2->setTahunTerbit(2017);
-		bukuagm2->setPenulis("Muhammad Farid Wadji");
+		perpustakaanx *bukuagm5 = new perpustakaanx();
+		bukuagm5->setNamaBuku("5Jangan Khawatir Allah Bersamamu");
+		bukuagm5->setTahunTerbit(2017);
+		bukuagm5->setPenulis("Muhammad Farid Wadji");
+		
+		//psikologi
+		perpustakaanx *bukupsi1 = new perpustakaanx();
+		bukupsi1->setNamaBuku("Kepribadian Plus");
+		bukupsi1->setTahunTerbit(1983);
+		bukupsi1->setPenulis(" Florence Littauer");
+		
+		perpustakaanx *bukupsi2 = new perpustakaanx();
+		bukupsi2->setNamaBuku("Psikologi Remaja");
+		bukupsi2->setTahunTerbit(1989);
+		bukupsi2->setPenulis("Sarlito Wirawan Santowo");
+		
+		perpustakaanx *bukupsi3 = new perpustakaanx();
+		bukupsi3->setNamaBuku("The Secret");
+		bukupsi3->setTahunTerbit(2006);
+		bukupsi3->setPenulis("Rhonda Byrne");
+		
+		perpustakaanx *bukupsi4 = new perpustakaanx();
+		bukupsi4->setNamaBuku("The Magic");
+		bukupsi4->setTahunTerbit(2012);
+		bukupsi4->setPenulis(" Rhonda Byrne");
+		
+		perpustakaanx *bukupsi5 = new perpustakaanx();
+		bukupsi5->setNamaBuku("Success Intelegence");
+		bukupsi5->setTahunTerbit(2005);
+		bukupsi5->setPenulis("Robert Holden");
+		
+		//politik
+		perpustakaanx *bukupol1 = new perpustakaanx();
+		bukupol1->setNamaBuku("Rights of Man");
+		bukupol1->setTahunTerbit(1791);
+		bukupol1->setPenulis("Thomas Paine");
+		
+		perpustakaanx *bukupsi2 = new perpustakaanx();
+		bukupol2->setNamaBuku("Manifesto Komunis");
+		bukupol2->setTahunTerbit(1848);
+		bukupol2->setPenulis("Karl Marx, Friedrich Engels, François Châtelet");
+		
+		perpustakaanx *bukupsi3 = new perpustakaanx();
+		bukupol3->setNamaBuku("Du contrat social");
+		bukupol3->setTahunTerbit(1762);
+		bukupol3->setPenulis("Jean-Jacques Rousseau");
+		
+		perpustakaanx *bukupsi4 = new perpustakaanx();
+		bukupol4->setNamaBuku("Capitalism, Socialism and Democracy");
+		bukupol4->setTahunTerbit(1942);
+		bukupol4->setPenulis("Joseph Schumpeter");
+		
+		perpustakaanx *bukupsi5 = new perpustakaanx();
+		bukupol5->setNamaBuku("Penumpang ke Frankfurt");
+		bukupol5->setTahunTerbit(1970);
+		bukupol5->setPenulis("Agatha Christie");
+	
+		//fiksi
+		perpustakaanx *bukufik1 = new perpustakaanx();
+		bukufik1->setNamaBuku("Harry Potter dan Batu Bertuah");
+		bukufik1->setTahunTerbit(1997);
+		bukufik1->setPenulis("J.K Rowling");
+		
+		perpustakaanx *bukupsi2 = new perpustakaanx();
+		bukufik2->setNamaBuku("The Da Vinci Code");
+		bukufik2->setTahunTerbit(2003);
+		bukufik2->setPenulis("Dan Brown");
+		
+		perpustakaanx *bukupsi3 = new perpustakaanx();
+		bukufik3->setNamaBuku("Kursi Perak");
+		bukufik3->setTahunTerbit(1953);
+		bukufik3->setPenulis("C.S Lewis");
+		
+		perpustakaanx *bukupsi4 = new perpustakaanx();
+		bukufik4->setNamaBuku("The Hobbit");
+		bukufik4->setTahunTerbit(1953);
+		bukufik4->setPenulis("J.R.R Tolkien");
+		
+		perpustakaanx *bukupsi5 = new perpustakaanx();
+		bukufik5->setNamaBuku("Anna Karenina");
+		bukufik5->setTahunTerbit(1877);
+		bukufik5->setPenulis("Leo Tolstoy");
+		
 	int pilih,pilihkategoribuku;
 	cout<<" -Perpustakaan X- \n";
 
