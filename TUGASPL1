@@ -128,14 +128,29 @@ int main(){
 		
 		//agama
 		perpustakaanx *bukuagm1 = new perpustakaanx();
-		bukuagm1->setNamaBuku("Agama Islam");
-		bukuagm1->setTahunTerbit(2016);
-		bukuagm1->setPenulis("Sulton");
+		bukuagm1->setNamaBuku("Bangkit dari Lubang yang Dalam");
+		bukuagm1->setTahunTerbit(2017);
+		bukuagm1->setPenulis("Bob Yandian");
 		
 		perpustakaanx *bukuagm2 = new perpustakaanx();
-		bukuagm2->setNamaBuku("Agama");
+		bukuagm2->setNamaBuku("Kisah Hikmah 25 Nabi Allah");
 		bukuagm2->setTahunTerbit(2017);
-		bukuagm2->setPenulis("Edo Bayu");
+		bukuagm2->setPenulis("Dian Noviyanti");
+		
+		perpustakaanx *bukuagm2 = new perpustakaanx();
+		bukuagm2->setNamaBuku("Kamu Begitu Berharga ");
+		bukuagm2->setTahunTerbit(2017);
+		bukuagm2->setPenulis("M. Dhani Sulisty");
+		
+		perpustakaanx *bukuagm2 = new perpustakaanx();
+		bukuagm2->setNamaBuku("Renungan Tasawuf");
+		bukuagm2->setTahunTerbit(2017);
+		bukuagm2->setPenulis("Hamka Prof. Dr.");
+		
+		perpustakaanx *bukuagm2 = new perpustakaanx();
+		bukuagm2->setNamaBuku("Jangan Khawatir Allah Bersamamu");
+		bukuagm2->setTahunTerbit(2017);
+		bukuagm2->setPenulis("Muhammad Farid Wadji");
 	int pilih,pilihkategoribuku;
 	cout<<" -Perpustakaan X- \n";
 
