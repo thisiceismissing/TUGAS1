@@ -48,7 +48,7 @@ class perpustakaanx{
 };
 
 int main(){	
-		//tek
+		//teknologi
 		perpustakaanx *bukutek1 = new perpustakaanx();
 		bukutek1->setNamaBuku("Buku 1 teknologi");
 		bukutek1->setTahunTerbit(2013);
@@ -58,6 +58,21 @@ int main(){
 		bukutek2->setNamaBuku("Buku 2 teknologi");
 		bukutek2->setTahunTerbit(2014);
 		bukutek2->setPenulis("1.Bisma Mahendra\n\t\t\t  2. Sulton Arif");
+		
+		perpustakaanx *bukutek3 = new perpustakaanx();
+		bukutek3->setNamaBuku("Buku 2 teknologi");
+		bukutek3->setTahunTerbit(2014);
+		bukutek3->setPenulis("1.Bisma Mahendra\n\t\t\t  2. Sulton Arif");
+		
+		perpustakaanx *bukutek4 = new perpustakaanx();
+		bukutek4->setNamaBuku("Buku 2 teknologi");
+		bukutek4->setTahunTerbit(2014);
+		bukutek4->setPenulis("1.Bisma Mahendra\n\t\t\t  2. Sulton Arif");
+		
+		perpustakaanx *bukutek5 = new perpustakaanx();
+		bukutek5->setNamaBuku("Buku 2 teknologi");
+		bukutek5->setTahunTerbit(2014);
+		bukutek5->setPenulis("1.Bisma Mahendra\n\t\t\t  2. Sulton Arif");
 		
 		//filsafat
 		perpustakaanx *bukufil1 = new perpustakaanx();
@@ -70,6 +85,21 @@ int main(){
 		bukufil2->setTahunTerbit(2014);
 		bukufil2->setPenulis("Abdullah");
 		
+		perpustakaanx *bukufil3 = new perpustakaanx();
+		bukufil3->setNamaBuku("Buku 1 Filsafat");
+		bukufil3->setTahunTerbit(2015);
+		bukufil3->setPenulis("Kevin Pratama");
+		
+		perpustakaanx *bukufil4 = new perpustakaanx();
+		bukufil4->setNamaBuku("Buku 1 Filsafat");
+		bukufil4->setTahunTerbit(2015);
+		bukufil4->setPenulis("Kevin Pratama");
+		
+		perpustakaanx *bukufil5 = new perpustakaanx();
+		bukufil5->setNamaBuku("Buku 1 Filsafat");
+		bukufil5->setTahunTerbit(2015);
+		bukufil5->setPenulis("Kevin Pratama");
+		
 		//sejarah
 		perpustakaanx *bukusej1 = new perpustakaanx();
 		bukusej1->setNamaBuku("Buku 1 Sejarah");
@@ -80,6 +110,21 @@ int main(){
 		bukusej2->setNamaBuku("Buku 2 Sejarah");
 		bukusej2->setTahunTerbit(2013);
 		bukusej2->setPenulis("Ammar W");
+		
+		perpustakaanx *bukusej3 = new perpustakaanx();
+		bukusej3->setNamaBuku("Buku 1 Sejarah");
+		bukusej3->setTahunTerbit(2011);
+		bukusej3->setPenulis("Imad Muzafar");
+		
+		perpustakaanx *bukusej4 = new perpustakaanx();
+		bukusej4->setNamaBuku("Buku 1 Sejarah");
+		bukusej4->setTahunTerbit(2011);
+		bukusej4->setPenulis("Imad Muzafar");
+		
+		perpustakaanx *bukusej5 = new perpustakaanx();
+		bukusej5->setNamaBuku("Buku 1 Sejarah");
+		bukusej5->setTahunTerbit(2011);
+		bukusej5->setPenulis("Imad Muzafar");
 		
 		//agama
 		perpustakaanx *bukuagm1 = new perpustakaanx();
@@ -92,40 +137,20 @@ int main(){
 		bukuagm2->setTahunTerbit(2017);
 		bukuagm2->setPenulis("Edo Bayu");
 		
-		//psikologi
-		perpustakaanx *bukupsi1 = new perpustakaanx();
-		bukupsi1->setNamaBuku("Agama Islam");
-		bukupsi1->setTahunTerbit(2016);
-		bukupsi1->setPenulis("Sulton");
+		perpustakaanx *bukuagm3 = new perpustakaanx();
+		bukuagm3->setNamaBuku("Agama");
+		bukuagm3->setTahunTerbit(2017);
+		bukuagm3->setPenulis("Edo Bayu");
 		
-		perpustakaanx *bukupsi2 = new perpustakaanx();
-		bukupsi2->setNamaBuku("Agama");
-		bukupsi2->setTahunTerbit(2017);
-		bukupsi2->setPenulis("Edo Bayu");
+		perpustakaanx *bukuagm4 = new perpustakaanx();
+		bukuagm4->setNamaBuku("Agama");
+		bukuagm4->setTahunTerbit(2017);
+		bukuagm4->setPenulis("Edo Bayu");
 		
-		//politik
-		perpustakaanx *bukupol1 = new perpustakaanx();
-		bukupol1->setNamaBuku("Politikk");
-		bukupol1->setTahunTerbit(2016);
-		bukupol1->setPenulis("Sulton");
-		
-		perpustakaanx *bukupol2 = new perpustakaanx();
-		bukupol2->setNamaBuku("Politik");
-		bukupol2->setTahunTerbit(2017);
-		bukupol2->setPenulis("Edo Bayu");
-		
-		//Fiksi
-		perpustakaanx *bukufik1 = new perpustakaanx();
-		bukufik1->setNamaBuku("Cartoon");
-		bukufik1->setTahunTerbit(2016);
-		bukufik1->setPenulis("Sulton");
-		
-		perpustakaanx *bukufik2 = new perpustakaanx();
-		bukufik2->setNamaBuku("Agama");
-		bukufik2->setTahunTerbit(2017);
-		bukufik2->setPenulis("Edo Bayu");
-		
-		
+		perpustakaanx *bukuagm5 = new perpustakaanx();
+		bukuagm5->setNamaBuku("Agama");
+		bukuagm5->setTahunTerbit(2017);
+		bukuagm5->setPenulis("Edo Bayu");
 	int pilih,pilihkategoribuku;
 	cout<<" -Perpustakaan X- \n";
 
@@ -159,7 +184,7 @@ int main(){
 				bukufil1->tampil(kategori);
 				bukufil2->tampil(kategori);
 			}
-			if(pilihkategoribuku==3){//--Sejarah
+			if(pilihkategoribuku==3){//--filsafat
 				string kategori = "Sejarah";
 				cout<<" -"<<kategori<<"- \n" ;
 				//Tambah Buku 
@@ -168,7 +193,7 @@ int main(){
 				bukusej1->tampil(kategori);
 				bukusej2->tampil(kategori);
 			}
-			if(pilihkategoribuku==4){//--Agama
+			if(pilihkategoribuku==4){//--filsafat
 				string kategori = "Agama";
 				cout<<" -"<<kategori<<"- \n" ;
 				//Tambah Buku 
@@ -177,34 +202,4 @@ int main(){
 				bukuagm1->tampil(kategori);
 				bukuagm2->tampil(kategori);
 			}		
-			
-			if(pilihkategoribuku==5){//--Psikologi
-				string kategori = "Psikologi";
-				cout<<" -"<<kategori<<"- \n" ;
-				//Tambah Buku 
-				bukupsi1->setGolongan(kategori);
-				bukupsi2->setGolongan(kategori);
-				bukupsi1->tampil(kategori);
-				bukupsi2->tampil(kategori);
-			}
-			
-			if(pilihkategoribuku==6){//--Politik
-				string kategori = "Politik";
-				cout<<" -"<<kategori<<"- \n" ;
-				//Tambah Buku 
-				bukupol1->setGolongan(kategori);
-				bukupol2->setGolongan(kategori);
-				bukupol1->tampil(kategori);
-				bukupol2->tampil(kategori);
-			}
-			
-			if(pilihkategoribuku==7){//--Fiksi
-				string kategori = "Fiksi";
-				cout<<" -"<<kategori<<"- \n" ;
-				//Tambah Buku 
-				bukufik1->setGolongan(kategori);
-				bukufik2->setGolongan(kategori);
-				bukufik1->tampil(kategori);
-				bukufik2->tampil(kategori);
-			}
 }
