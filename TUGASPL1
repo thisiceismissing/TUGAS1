@@ -47,7 +47,50 @@ class perpustakaanx{
 		}
 };
 
-int main(){				
+int main(){	
+		//tek
+		perpustakaanx *bukutek1 = new perpustakaanx();
+		bukutek1->setNamaBuku("Buku 1 teknologi");
+		bukutek1->setTahunTerbit(2013);
+		bukutek1->setPenulis("1.Bisma Mahendra");
+		
+		perpustakaanx *bukutek2 = new perpustakaanx();
+		bukutek2->setNamaBuku("Buku 2 teknologi");
+		bukutek2->setTahunTerbit(2014);
+		bukutek2->setPenulis("1.Bisma Mahendra\n\t\t\t  2. Sulton Arif");
+		
+		//filsafat
+		perpustakaanx *bukufil1 = new perpustakaanx();
+		bukufil1->setNamaBuku("Buku 1 Filsafat");
+		bukufil1->setTahunTerbit(2015);
+		bukufil1->setPenulis("Kevin Pratama");
+		
+		perpustakaanx *bukufil2 = new perpustakaanx();
+		bukufil2->setNamaBuku("Buku 2 Filsafat");
+		bukufil2->setTahunTerbit(2014);
+		bukufil2->setPenulis("Abdullah");
+		
+		//sejarah
+		perpustakaanx *bukusej1 = new perpustakaanx();
+		bukusej1->setNamaBuku("Buku 1 Sejarah");
+		bukusej1->setTahunTerbit(2011);
+		bukusej1->setPenulis("Imad Muzafar");
+		
+		perpustakaanx *bukusej2 = new perpustakaanx();
+		bukusej2->setNamaBuku("Buku 2 Sejarah");
+		bukusej2->setTahunTerbit(2013);
+		bukusej2->setPenulis("Ammar W");
+		
+		//agama
+		perpustakaanx *bukuagm1 = new perpustakaanx();
+		bukuagm1->setNamaBuku("Agama Islam");
+		bukuagm1->setTahunTerbit(2016);
+		bukuagm1->setPenulis("Sulton");
+		
+		perpustakaanx *bukuagm2 = new perpustakaanx();
+		bukuagm2->setNamaBuku("Agama");
+		bukuagm2->setTahunTerbit(2017);
+		bukuagm2->setPenulis("Edo Bayu");
 	int pilih,pilihkategoribuku;
 	cout<<" -Perpustakaan X- \n";
 
@@ -62,26 +105,41 @@ int main(){
 		
 		cout<<"Silakan Pilih Kategori : ";
 		cin>>pilihkategoribuku;
-			if(pilihkategoribuku==1){ //--teknologi
+				if(pilihkategoribuku==1){ //--teknologi
 				string kategori = "Teknologi";
 				cout<<" -"<<kategori<<"- \n" ;
 				//Tambah Buku 
-				perpustakaanx *bukutek1 = new perpustakaanx();
-				bukutek1->setNamaBuku("Buku 1 teknologi");
-				bukutek1->setTahunTerbit(2013);
-				bukutek1->setPenulis("1.Bisma Mahendra");
 				bukutek1->setGolongan(kategori);
-				
-				perpustakaanx *bukutek2 = new perpustakaanx();
-				bukutek2->setNamaBuku("Buku 2 teknologi");
-				bukutek2->setTahunTerbit(2014);
-				bukutek2->setPenulis("1.Bisma Mahendra\n\t\t\t  2.Sulton Arif");
 				bukutek2->setGolongan(kategori);
+				bukutek1->tampil(kategori);
+				bukutek2->tampil(kategori);
 				
-				
-				
-					bukutek1->tampil(kategori);
-					bukutek2->tampil(kategori);
-					
-			}	
+			}
+			if(pilihkategoribuku==2){//--filsafat
+				string kategori = "Filsafat";
+				cout<<" -"<<kategori<<"- \n" ;
+				//Tambah Buku 
+				bukufil1->setGolongan(kategori);
+				bukufil2->setGolongan(kategori);
+				bukufil1->tampil(kategori);
+				bukufil2->tampil(kategori);
+			}
+			if(pilihkategoribuku==3){//--filsafat
+				string kategori = "Sejarah";
+				cout<<" -"<<kategori<<"- \n" ;
+				//Tambah Buku 
+				bukusej1->setGolongan(kategori);
+				bukusej2->setGolongan(kategori);
+				bukusej1->tampil(kategori);
+				bukusej2->tampil(kategori);
+			}
+			if(pilihkategoribuku==4){//--filsafat
+				string kategori = "Agama";
+				cout<<" -"<<kategori<<"- \n" ;
+				//Tambah Buku 
+				bukuagm1->setGolongan(kategori);
+				bukuagm2->setGolongan(kategori);
+				bukuagm1->tampil(kategori);
+				bukuagm2->tampil(kategori);
+			}		
 }
