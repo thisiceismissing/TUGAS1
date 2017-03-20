@@ -91,6 +91,41 @@ int main(){
 		bukuagm2->setNamaBuku("Agama");
 		bukuagm2->setTahunTerbit(2017);
 		bukuagm2->setPenulis("Edo Bayu");
+		
+		//psikologi
+		perpustakaanx *bukupsi1 = new perpustakaanx();
+		bukupsi1->setNamaBuku("Agama Islam");
+		bukupsi1->setTahunTerbit(2016);
+		bukupsi1->setPenulis("Sulton");
+		
+		perpustakaanx *bukupsi2 = new perpustakaanx();
+		bukupsi2->setNamaBuku("Agama");
+		bukupsi2->setTahunTerbit(2017);
+		bukupsi2->setPenulis("Edo Bayu");
+		
+		//politik
+		perpustakaanx *bukupol1 = new perpustakaanx();
+		bukupol1->setNamaBuku("Politikk");
+		bukupol1->setTahunTerbit(2016);
+		bukupol1->setPenulis("Sulton");
+		
+		perpustakaanx *bukupol2 = new perpustakaanx();
+		bukupol2->setNamaBuku("Politik");
+		bukupol2->setTahunTerbit(2017);
+		bukupol2->setPenulis("Edo Bayu");
+		
+		//Fiksi
+		perpustakaanx *bukufik1 = new perpustakaanx();
+		bukufik1->setNamaBuku("Cartoon");
+		bukufik1->setTahunTerbit(2016);
+		bukufik1->setPenulis("Sulton");
+		
+		perpustakaanx *bukufik2 = new perpustakaanx();
+		bukufik2->setNamaBuku("Agama");
+		bukufik2->setTahunTerbit(2017);
+		bukufik2->setPenulis("Edo Bayu");
+		
+		
 	int pilih,pilihkategoribuku;
 	cout<<" -Perpustakaan X- \n";
 
@@ -124,7 +159,7 @@ int main(){
 				bukufil1->tampil(kategori);
 				bukufil2->tampil(kategori);
 			}
-			if(pilihkategoribuku==3){//--filsafat
+			if(pilihkategoribuku==3){//--Sejarah
 				string kategori = "Sejarah";
 				cout<<" -"<<kategori<<"- \n" ;
 				//Tambah Buku 
@@ -133,7 +168,7 @@ int main(){
 				bukusej1->tampil(kategori);
 				bukusej2->tampil(kategori);
 			}
-			if(pilihkategoribuku==4){//--filsafat
+			if(pilihkategoribuku==4){//--Agama
 				string kategori = "Agama";
 				cout<<" -"<<kategori<<"- \n" ;
 				//Tambah Buku 
@@ -142,4 +177,34 @@ int main(){
 				bukuagm1->tampil(kategori);
 				bukuagm2->tampil(kategori);
 			}		
+			
+			if(pilihkategoribuku==5){//--Psikologi
+				string kategori = "Psikologi";
+				cout<<" -"<<kategori<<"- \n" ;
+				//Tambah Buku 
+				bukupsi1->setGolongan(kategori);
+				bukupsi2->setGolongan(kategori);
+				bukupsi1->tampil(kategori);
+				bukupsi2->tampil(kategori);
+			}
+			
+			if(pilihkategoribuku==6){//--Politik
+				string kategori = "Politik";
+				cout<<" -"<<kategori<<"- \n" ;
+				//Tambah Buku 
+				bukupol1->setGolongan(kategori);
+				bukupol2->setGolongan(kategori);
+				bukupol1->tampil(kategori);
+				bukupol2->tampil(kategori);
+			}
+			
+			if(pilihkategoribuku==7){//--Fiksi
+				string kategori = "Fiksi";
+				cout<<" -"<<kategori<<"- \n" ;
+				//Tambah Buku 
+				bukufik1->setGolongan(kategori);
+				bukufik2->setGolongan(kategori);
+				bukufik1->tampil(kategori);
+				bukufik2->tampil(kategori);
+			}
 }
