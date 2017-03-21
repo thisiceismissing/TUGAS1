@@ -230,7 +230,8 @@ int main(){
 		bukufik5->setPenulis("Neno");
 		
 		
-	int pilih,pilihkategoribuku;
+	int pilihkategoribuku;
+	do{
 	cout<<" -Perpustakaan X- \n";
 
 		cout<<"1. Teknologi\n"
@@ -240,6 +241,7 @@ int main(){
 			<<"5. Psikologi\n"
 			<<"6. Politik\n"
 			<<"7. Fiksi\n"
+			<<"0. Exit\n"
 		;
 		
 		cout<<"Silakan Pilih Kategori : ";
@@ -362,4 +364,5 @@ int main(){
 				bukufil4->tampil(kategori);
 				bukufil5->tampil(kategori);
 			}
+			} while(pilihkategoribuku!=0);
 }
