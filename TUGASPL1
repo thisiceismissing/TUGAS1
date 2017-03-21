@@ -126,7 +126,7 @@ int main(){
 		bukusej5->setTahunTerbit(2016);
 		bukusej5->setPenulis("Ms Ardison");
 		
-		//agama
+			//agama
 		perpustakaanx *bukuagm1 = new perpustakaanx();
 		bukuagm1->setNamaBuku("Agama Islam");
 		bukuagm1->setTahunTerbit(2016);
@@ -136,6 +136,98 @@ int main(){
 		bukuagm2->setNamaBuku("Agama");
 		bukuagm2->setTahunTerbit(2017);
 		bukuagm2->setPenulis("Edo Bayu");
+		
+		perpustakaanx *bukuagm3 = new perpustakaanx();
+		bukuagm3->setNamaBuku("Buku 3 teknologi");
+		bukuagm3->setTahunTerbit(2013);
+		bukuagm3->setPenulis("1.Bisma Mahendra");
+		
+		perpustakaanx *bukuagm4 = new perpustakaanx();
+		bukuagm4->setNamaBuku("Buku 4 teknologi");
+		bukuagm4->setTahunTerbit(2014);
+		bukuagm4->setPenulis("1.Bisma Mahendra\n\t\t\t  2. Sulton Arif");
+		
+		perpustakaanx *bukuagm5 = new perpustakaanx();
+		bukuagm5->setNamaBuku("Buku 5 teknologi");
+		bukuagm5->setTahunTerbit(2014);
+		bukuagm5->setPenulis("1.Bisma Mahendra");
+		//psikologi
+		perpustakaanx *bukupsi1 = new perpustakaanx();
+		bukupsi1->setNamaBuku("Agama Islam");
+		bukupsi1->setTahunTerbit(2016);
+		bukupsi1->setPenulis("Sulton");
+		
+		perpustakaanx *bukupsi2 = new perpustakaanx();
+		bukupsi2->setNamaBuku("Agama");
+		bukupsi2->setTahunTerbit(2017);
+		bukupsi2->setPenulis("Edo Bayu");
+		
+		perpustakaanx *bukupsi3 = new perpustakaanx();
+		bukupsi3->setNamaBuku("Buku 3 teknologi");
+		bukupsi3->setTahunTerbit(2013);
+		bukupsi3->setPenulis("1.Bisma Mahendra");
+		
+		perpustakaanx *bukupsi4 = new perpustakaanx();
+		bukupsi4->setNamaBuku("Buku 4 teknologi");
+		bukupsi4->setTahunTerbit(2014);
+		bukupsi4->setPenulis("1.Bisma Mahendra\n\t\t\t  2. Sulton Arif");
+		
+		perpustakaanx *bukupsi5 = new perpustakaanx();
+		bukupsi5->setNamaBuku("Buku 5 teknologi");
+		bukupsi5->setTahunTerbit(2014);
+		bukupsi5->setPenulis("1.Bisma Mahendra");
+		
+		//politik
+		perpustakaanx *bukupol1 = new perpustakaanx();
+		bukupol1->setNamaBuku("Politikk");
+		bukupol1->setTahunTerbit(2016);
+		bukupol1->setPenulis("Sulton");
+		
+		perpustakaanx *bukupol2 = new perpustakaanx();
+		bukupol2->setNamaBuku("Politik");
+		bukupol2->setTahunTerbit(2017);
+		bukupol2->setPenulis("Edo Bayu");
+		
+		perpustakaanx *bukupol3 = new perpustakaanx();
+		bukupol3->setNamaBuku("Buku 3 teknologi");
+		bukupol3->setTahunTerbit(2013);
+		bukupol3->setPenulis("1.Bisma Mahendra");
+		
+		perpustakaanx *bukupol4 = new perpustakaanx();
+		bukupol4->setNamaBuku("Buku 4 teknologi");
+		bukupol4->setTahunTerbit(2014);
+		bukupol4->setPenulis("1.Bisma Mahendra\n\t\t\t  2. Sulton Arif");
+		
+		perpustakaanx *bukupol5 = new perpustakaanx();
+		bukupol5->setNamaBuku("Buku 5 teknologi");
+		bukupol5->setTahunTerbit(2014);
+		bukupol5->setPenulis("1.Bisma Mahendra");
+		
+		//Fiksi
+		perpustakaanx *bukufik1 = new perpustakaanx();
+		bukufik1->setNamaBuku("Cartoon");
+		bukufik1->setTahunTerbit(2016);
+		bukufik1->setPenulis("Sulton");
+		
+		perpustakaanx *bukufik2 = new perpustakaanx();
+		bukufik2->setNamaBuku("Agama");
+		bukufik2->setTahunTerbit(2017);
+		bukufik2->setPenulis("Edo Bayu");
+		
+		perpustakaanx *bukufik3 = new perpustakaanx();
+		bukufik3->setNamaBuku("Buku 3 teknologi");
+		bukufik3->setTahunTerbit(2013);
+		bukufik3->setPenulis("1.Bisma Mahendra");
+		
+		perpustakaanx *bukufik4 = new perpustakaanx();
+		bukufik4->setNamaBuku("Buku 4 teknologi");
+		bukufik4->setTahunTerbit(2014);
+		bukufik4->setPenulis("1.Bisma Mahendra\n\t\t\t  2. Sulton Arif");
+		
+		perpustakaanx *bukufik5 = new perpustakaanx();
+		bukufik5->setNamaBuku("Buku 5 teknologi");
+		bukufik5->setTahunTerbit(2014);
+		bukufik5->setPenulis("1.Bisma Mahendra");
 	int pilih,pilihkategoribuku;
 	cout<<" -Perpustakaan X- \n";
 
@@ -204,5 +296,68 @@ int main(){
 				bukuagm2->setGolongan(kategori);
 				bukuagm1->tampil(kategori);
 				bukuagm2->tampil(kategori);
+			}	
+						if(pilihkategoribuku==4){//--Agama
+				string kategori = "Agama";
+				cout<<" -"<<kategori<<"- \n" ;
+				//Tambah Buku 
+				bukuagm1->setGolongan(kategori);
+				bukuagm2->setGolongan(kategori);
+				bukuagm3->setGolongan(kategori);
+				bukuagm4->setGolongan(kategori);
+				bukuagm5->setGolongan(kategori);
+				bukuagm1->tampil(kategori);
+				bukuagm2->tampil(kategori);
+				bukuagm3->tampil(kategori);
+				bukuagm4->tampil(kategori);
+				bukuagm5->tampil(kategori);
 			}		
+			
+			if(pilihkategoribuku==5){//--Psikologi
+				string kategori = "Psikologi";
+				cout<<" -"<<kategori<<"- \n" ;
+				//Tambah Buku 
+				bukupsi1->setGolongan(kategori);
+				bukupsi2->setGolongan(kategori);
+				bukupsi3->setGolongan(kategori);
+				bukupsi4->setGolongan(kategori);
+				bukupsi5->setGolongan(kategori);
+				bukupsi1->tampil(kategori);
+				bukupsi2->tampil(kategori);
+				bukupsi3->tampil(kategori);
+				bukupsi4->tampil(kategori);
+				bukupsi5->tampil(kategori);
+			}
+			
+			if(pilihkategoribuku==6){//--Politik
+				string kategori = "Politik";
+				cout<<" -"<<kategori<<"- \n" ;
+				//Tambah Buku 
+				bukupol1->setGolongan(kategori);
+				bukupol2->setGolongan(kategori);
+				bukupol3->setGolongan(kategori);
+				bukupol4->setGolongan(kategori);
+				bukupol5->setGolongan(kategori);
+				bukupol1->tampil(kategori);
+				bukupol2->tampil(kategori);
+				bukupol3->tampil(kategori);
+				bukupol4->tampil(kategori);
+				bukupol5->tampil(kategori);
+			}
+			
+			if(pilihkategoribuku==7){//--Fiksi
+				string kategori = "Fiksi";
+				cout<<" -"<<kategori<<"- \n" ;
+				//Tambah Buku 
+				bukufik1->setGolongan(kategori);
+				bukufik2->setGolongan(kategori);
+				bukufik3->setGolongan(kategori);
+				bukufik4->setGolongan(kategori);
+				bukufik5->setGolongan(kategori);
+				bukufik1->tampil(kategori);
+				bukufik2->tampil(kategori);
+				bukufil3->tampil(kategori);
+				bukufil4->tampil(kategori);
+				bukufil5->tampil(kategori);
+			}
 }
