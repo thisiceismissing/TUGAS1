@@ -151,57 +151,59 @@ int main(){
 		bukuagm5->setNamaBuku("Buku Pendidikan Agama Islam SMA/ SMK");
 		bukuagm5->setTahunTerbit(2011);
 		bukuagm5->setPenulis("Husni Thoyar");
+		
 		//psikologi
+		
 		perpustakaanx *bukupsi1 = new perpustakaanx();
-		bukupsi1->setNamaBuku("Agama Islam");
-		bukupsi1->setTahunTerbit(2016);
-		bukupsi1->setPenulis("Sulton");
+		bukupsi1->setNamaBuku("Ada Apa Dengan Tubuhku? (Buku Untuk Cewek)");
+		bukupsi1->setTahunTerbit(2011);
+		bukupsi1->setPenulis("Lynda Madaras, Area Madaras ");
 		
 		perpustakaanx *bukupsi2 = new perpustakaanx();
-		bukupsi2->setNamaBuku("Agama");
-		bukupsi2->setTahunTerbit(2017);
-		bukupsi2->setPenulis("Edo Bayu");
+		bukupsi2->setNamaBuku("Agenda Psikologi Islami");
+		bukupsi2->setTahunTerbit(0);
+		bukupsi2->setPenulis("H Fuad Nashori ");
 		
 		perpustakaanx *bukupsi3 = new perpustakaanx();
-		bukupsi3->setNamaBuku("Buku 3 teknologi");
-		bukupsi3->setTahunTerbit(2013);
-		bukupsi3->setPenulis("1.Bisma Mahendra");
+		bukupsi3->setNamaBuku("Ada Apa Dengan Tubuhku? (Buku Untuk Cowok)");
+		bukupsi3->setTahunTerbit(2011);
+		bukupsi3->setPenulis("Lynda Madaras, Area Mandaras");
 		
 		perpustakaanx *bukupsi4 = new perpustakaanx();
-		bukupsi4->setNamaBuku("Buku 4 teknologi");
-		bukupsi4->setTahunTerbit(2014);
-		bukupsi4->setPenulis("1.Bisma Mahendra\n\t\t\t  2. Sulton Arif");
+		bukupsi4->setNamaBuku("Ananda Berkebutuhan Khusus; Penanganan Perilaku Sepanjang Rentang Perkembangan");
+		bukupsi4->setTahunTerbit(2013);
+		bukupsi4->setPenulis("Mahdalela, S.Psi, Psikolog1.Bisma Mahendra\n\t\t\t  2. Sulton Arif");
 		
 		perpustakaanx *bukupsi5 = new perpustakaanx();
-		bukupsi5->setNamaBuku("Buku 5 teknologi");
-		bukupsi5->setTahunTerbit(2014);
-		bukupsi5->setPenulis("1.Bisma Mahendra");
+		bukupsi5->setNamaBuku("Asas-Asas Penelitian Behavioral");
+		bukupsi5->setTahunTerbit(2012);
+		bukupsi5->setPenulis(" Fred N. Kerlinger ");
 		
 		//politik
 		perpustakaanx *bukupol1 = new perpustakaanx();
-		bukupol1->setNamaBuku("Politikk");
-		bukupol1->setTahunTerbit(2016);
-		bukupol1->setPenulis("Sulton");
+		bukupol1->setNamaBuku("Identity Politics In Indonesian Advertising ");
+		bukupol1->setTahunTerbit(2012);
+		bukupol1->setPenulis("Ratna Noviani");
 		
 		perpustakaanx *bukupol2 = new perpustakaanx();
-		bukupol2->setNamaBuku("Politik");
-		bukupol2->setTahunTerbit(2017);
-		bukupol2->setPenulis("Edo Bayu");
+		bukupol2->setNamaBuku("POLITIK DALAM DUNIA YANG BERUBAH");
+		bukupol2->setTahunTerbit(2016);
+		bukupol2->setPenulis("Marcus E Ethridge");
 		
 		perpustakaanx *bukupol3 = new perpustakaanx();
-		bukupol3->setNamaBuku("Buku 3 teknologi");
-		bukupol3->setTahunTerbit(2013);
-		bukupol3->setPenulis("1.Bisma Mahendra");
+		bukupol3->setNamaBuku("Analisis Hubungan Pemerintah Pusat dan Daerah");
+		bukupol3->setTahunTerbit(2012);
+		bukupol3->setPenulis("Josef Riwu Kaho");
 		
 		perpustakaanx *bukupol4 = new perpustakaanx();
-		bukupol4->setNamaBuku("Buku 4 teknologi");
-		bukupol4->setTahunTerbit(2014);
-		bukupol4->setPenulis("1.Bisma Mahendra\n\t\t\t  2. Sulton Arif");
+		bukupol4->setNamaBuku("IJTIHAD POLITIK MUHAMMADIYAH : POLITIK SEBAGAI AMAL USAHA");
+		bukupol4->setTahunTerbit(0);
+		bukupol4->setPenulis("ZULY QODIR, ACHMAD NURMANDI, M. NURUL YAMIN");
 		
 		perpustakaanx *bukupol5 = new perpustakaanx();
-		bukupol5->setNamaBuku("Buku 5 teknologi");
+		bukupol5->setNamaBuku("Politik Hukum Integratif UMKM");
 		bukupol5->setTahunTerbit(2014);
-		bukupol5->setPenulis("1.Bisma Mahendra");
+		bukupol5->setPenulis("Ade Komarudin Dr");
 		
 		//Fiksi
 		perpustakaanx *bukufik1 = new perpustakaanx();
